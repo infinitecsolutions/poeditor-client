@@ -1,5 +1,6 @@
 'use strict';
 
+var assign = require('object-assign');
 var Project = require('./Project');
 var utils = require('./utils');
 
@@ -27,6 +28,13 @@ Projects.prototype.get = function(id) {
     return utils.call(this.__token, { action: 'view_project', id: id }).then(function(response) {
         return new Project(this.__token, response.item);
     }.bind(this));
+};
+
+Projects.prototype.export = function(options) {
+    var params = assign({}, options, { action: 'projects/export' });
+    return utils.call(this.__token, params).then(function(response) {
+        return response.result;
+    });
 };
 
 module.exports = Projects;
