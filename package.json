@@ -1,6 +1,6 @@
 {
-  "name": "poeditor-client",
-  "version": "0.0.4",
+  "name": "poeditor-tool",
+  "version": "0.0.2",
   "description": "JavaScript cient for POEditor translations solution",
   "main": "src/Client.js",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/janjakubnanista/poeditor-client.git"
+    "url": "git+https://github.com/infinitecsolutions/poeditor-tool.git"
   },
   "keywords": [
     "POEditor",
@@ -19,20 +19,28 @@
     "l10n"
   ],
   "author": {
-      "name": "Ján Jakub Naništa",
-      "email": "jan.jakub.nanista@gmail.com"
+    "name": "Ján Jakub Naništa",
+    "email": "jan.jakub.nanista@gmail.com"
   },
   "contributors": [
     {
       "name": "Ján Dzurek",
       "email": "famousgarkin@outlook.com"
+    },
+    {
+      "name": "Emilio Delazzari",
+      "email": "emilio.delazzari@infinitec.solutions"
+    },
+    {
+      "name": "Hugo Nogueira",
+      "email": "hugo.nogueira@infinitec.solutions"
     }
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/janjakubnanista/poeditor-client/issues"
+    "url": "https://github.com/infinitecsolutions/poeditor-tool/issues"
   },
-  "homepage": "https://github.com/janjakubnanista/poeditor-client#readme",
+  "homepage": "https://github.com/infinitecsolutions/poeditor-tool#readme",
   "devDependencies": {
     "babel": "^6.3.13",
     "babel-eslint": "^4.1.6",
